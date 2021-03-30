@@ -6,6 +6,10 @@
   "abstracts/functions",
   "abstracts/mixins";
 
+// 3. Base stuff
+@import
+  'base/base';
+
 // 5. Components
 @import
   "components/banner",

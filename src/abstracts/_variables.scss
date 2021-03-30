@@ -5,7 +5,14 @@
 $brand-color: #123;
 $brand-complementary: #fed;
 
-$error-color: #a00;
-$warning-color: #a50;
-$success-color: #0a0;
+$severity: (
+  error: #a00,
+  warning: #a50,
+  success: #0a0,
+);
 
+$severity2: (
+  error: (bg: pink, fg: darkred),
+  warning: (bg: orange, fg: darkorange),
+  success: (bg: lightgreen, fg: darkgreen),
+);
