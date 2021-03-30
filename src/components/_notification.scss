@@ -1,0 +1,13 @@
+.alert {
+  padding: .5em;
+
+  &.error {
+    @include color-box($error-color);
+  }
+  &.warning {
+    @include color-box($warning-color);
+  }
+  &.success {
+    @include color-box($success-color);
+  }
+}

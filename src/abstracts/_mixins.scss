@@ -1,0 +1,6 @@
+@mixin color-box($base-color) {
+  $light: hsl(hue($base-color), 70%, 80%);
+  $dark: hsl(hue($base-color), 70%, 20%);
+  background-color: $light;
+  color: $dark;
+}

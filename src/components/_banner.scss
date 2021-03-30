@@ -1,0 +1,12 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  background-color: $brand-color;
+  color: $brand-complementary;
+
+  .slogan {
+    text-align: center;
+  }
+}
