@@ -11,8 +11,9 @@ $severity: (
   success: #0a0,
 );
 
-$severity2: (
-  error: (bg: pink, fg: darkred),
-  warning: (bg: orange, fg: darkorange),
-  success: (bg: lightgreen, fg: darkgreen),
+$mq-breakpoints: (
+    x-small:  320px,
+    small:  740px,
+    medium: 980px,
+    large:    1300px
 );

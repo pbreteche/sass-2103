@@ -6,9 +6,17 @@
   "abstracts/functions",
   "abstracts/mixins";
 
+// 2. Vendors
+@import
+  'vendors/mq';
+
 // 3. Base stuff
 @import
   'base/base';
+
+// 4. Layout-related sections
+@import
+  'layout/layout';
 
 // 5. Components
 @import

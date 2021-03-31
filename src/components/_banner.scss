@@ -10,3 +10,24 @@
     text-align: center;
   }
 }
+
+// score sur 4 chiffres ABCD
+// A = 1 pour style en ligne (pas par la feuille CSS)
+// B = 1 pour chaque sélecteur de type "id" dans le sélecteur
+// C = 1 pour chaque sélecteur de type "classe" dans le sélecteur
+// D = 1 pour chaque sélecteur de type "élément" dans le sélecteur
+// sélecteur * vaut 0
+
+// score "cascade" = 1
+p {
+  color: blue;
+}
+
+// score "cascade" = 10
+.discounted {
+  color: red;
+}
+
+.best-seller {
+  color: green;
+}

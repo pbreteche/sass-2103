@@ -1,2 +1,5 @@
 # build and generated files
 dist/
+
+# lib and other dependencies
+node_modules/
